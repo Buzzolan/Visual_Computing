@@ -65,7 +65,7 @@ for k = 1:6
     text((m_reproj(k,1)),(m_reproj(k,2)),strcat('.       ',num2str(k)));
    
 end
-
+save('Matrice_P','P')
 %ho ricavato P=k[R|t] ora posso fattorizzare ed estrarre K. R e t
 
 
