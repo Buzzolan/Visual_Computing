@@ -1,7 +1,7 @@
 %Calibrazione della fotocamera= misurare con precisone ed accuratezza
 % i parametri interni ed esterni del modello della fotocamera.
 % Metodo Direct Linear Transform:
-I=imread("oggetto_calibrazione.jpg");
+I=imread("oggetto_2.jpg");
 imshow(I)
 
 %ora carico i punti Mi in coordinate omogenee:
@@ -65,7 +65,7 @@ for k = 1:6
     text((m_reproj(k,1)),(m_reproj(k,2)),strcat('.       ',num2str(k)));
    
 end
-save('Matrice_P','P')
+save('Matrice_P_2','P')
 %ho ricavato P=k[R|t] ora posso fattorizzare ed estrarre K. R e t
 
 

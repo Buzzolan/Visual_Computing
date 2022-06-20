@@ -1,0 +1,7 @@
+Ordine foto: 
+1) in basso a sx dietro
+2)in basso a sx avanti
+3) in basso a dx avanti
+4) in alto a dx avanti
+5)in alto a sx dietro
+6) in alto a sx avanti
