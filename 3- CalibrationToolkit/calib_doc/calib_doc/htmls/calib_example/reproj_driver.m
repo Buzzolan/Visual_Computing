@@ -1,8 +1,6 @@
-% Umberto Castellani
-%
 % Script per la riproiezione di punti 3D
 % su immagini 2D
-%
+
 
 close all
 clear all
