@@ -18,11 +18,13 @@ string=fgetl(fid);
 %Third line contains intrinsic:
 intrinsics=fgetl(fid);
 C = textscan(intrinsics,'%s');
+
 out=C{1};
-fx=str2num(out{9}(5:end-1));
-fy=str2num(out{10}(5:end-1));
-cx=str2num(out{11}(5:end-1));
-cy=str2num(out{12}(5:end-1));
+
+fx=str2num(out{10}(5:end-1));
+fy=str2num(out{11}(5:end-1));
+cx=str2num(out{12}(5:end-1));
+cy=str2num(out{13}(5:end-1));
 
 K=[fx,    0,        cx;
     0,   fy,        cy;
