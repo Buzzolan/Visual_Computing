@@ -16,6 +16,8 @@ Per eseguire il codice procedere nel seguente ordine:
 
 8) X84-ICP: algoritmo aboslute orientation. Lanciare driver_X84_ICP
 
-9) Algo_Fiore. Lanciare driver_fiore.
+9) Algo_Fiore. Lanciare driver_fiore. Ci sono le immagini di CV2 usate per la tesi. I punti proiettati sono anche i match con LoFTR
 
-I restanti SIFT e RANSAC sono stati utilizzati nella pipeline di CameraPose estimation. 
+10)RobustFitting---> Test Ransac cnn
+
+I restanti SIFT e RANSAC sono stati utilizzati anche nella pipeline di CameraPose estimation. 
